@@ -4,6 +4,7 @@
     border-radius: 4px;
     color: var(--white);
     font: var(--button);
+    letter-spacing: 1.25px;
     padding-block: 17.5px;
     padding-inline: 24px;
     text-align: center;
