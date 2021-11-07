@@ -26,7 +26,7 @@
 		/>
 		<meta
 			property="og:image"
-			content="https://pandresvaldivia.github.io/Portafolio-de-Andres/images/thumbnail.png"
+			content="https://pandresvaldivia.github.io/Portafolio-de-Andres/assets/images/thumbnail.png"
 		/>
 
 		<!-- Twitter -->
@@ -42,7 +42,7 @@
 		/>
 		<meta
 			property="twitter:image"
-			content="https://pandresvaldivia.github.io/Portafolio-de-Andres/images/thumbnail.png"
+			content="https://pandresvaldivia.github.io/Portafolio-de-Andres/assets/images/thumbnail.png"
 		/>
 
 		<!-- Fonts -->
@@ -55,7 +55,11 @@
 			href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;700&display=swap"
 			rel="stylesheet"
 		/>
-		<link rel="shortcut icon" href="./icons/logo.svg" type="image/x-icon" />
+		<link
+			rel="shortcut icon"
+			href="./assets/icons/logo.svg"
+			type="image/x-icon"
+		/>
 
 		<!-- Styles -->
 		<link rel="stylesheet" href="./css/index.css" />
@@ -76,7 +80,7 @@
 			<div class="wrapper">
 				<div class="header-content">
 					<img
-						src="./icons/logo.svg"
+						src="./assets/icons/logo.svg"
 						height="40"
 						alt="Logo del portafolio de Andres"
 					/>
@@ -87,7 +91,13 @@
 							<li><a href="#contact">Hablemos</a></li>
 						</ul>
 					</nav>
-					<a href="#" class="button">Curriculum</a>
+					<a
+						href="./assets/documents/curriculum.pdf"
+						target="_blank"
+						rel="noreferrer"
+						class="button"
+						>Curriculum</a
+					>
 				</div>
 			</div>
 		</header>
@@ -95,7 +105,7 @@
 			<section id="main" class="profile-info section">
 				<div class="profile-image">
 					<img
-						src="./images/pandresprofile.png"
+						src="./assets/images/pandresprofile.png"
 						height="321.87"
 						width="301"
 						alt="foto de perfil"
@@ -114,26 +124,37 @@
 						<a
 							class="button-icon"
 							target="_blank"
+							rel="noreferrer"
 							href="https://github.com/pandresvaldivia/"
-							><img src="icons/icon-github.svg" alt="icono de github"
+							><img src="assets/icons/icon-github.svg" alt="icono de github"
 						/></a>
 						<a class="button-icon" href="#contact"
-							><img src="icons/icon-important_mail.svg" alt="icono de correo"
+							><img
+								src="assets/icons/icon-important_mail.svg"
+								alt="icono de correo"
 						/></a>
 						<a
 							class="button-icon"
 							target="_blank"
+							rel="noreferrer"
 							href="https://www.instagram.com/pandresvaldivia/"
-							><img src="icons/icon-instagram.svg" alt="icono de instagram"
+							><img
+								src="assets/icons/icon-instagram.svg"
+								alt="icono de instagram"
 						/></a>
 						<a
 							class="button-icon"
 							target="_blank"
+							rel="noreferrer"
 							href="https://twitter.com/PandresDev"
-							><img src="icons/icon-twitter_squared.svg" alt="icono de twitter"
+							><img
+								src="assets/icons/icon-twitter_squared.svg"
+								alt="icono de twitter"
 						/></a>
 					</div>
-					<a href="#" class="button">Descargar curriculum</a>
+					<a href="./assets/documents/curriculum.pdf" class="button" download
+						>Descargar curriculum</a
+					>
 				</div>
 			</section>
 			<div class="message">
@@ -142,37 +163,44 @@
 					trabajar en proyectos retadores e increíbles
 				</p>
 				<p>Aquí hay algunos que me gustaría compartir.</p>
-				<img src="./icons/arrow-down.svg" alt="flecha hacia abajo" />
+				<img
+					class="message-arrow"
+					src="./assets/icons/arrow-down.svg"
+					alt="flecha hacia abajo"
+				/>
 			</div>
 			<section id="projects" class="section">
 				<div class="project">
 					<div class="project-image">
 						<img
-							src="./images/climacity.png"
-							alt="Imagen del proyecto Climacity"
+							src="./assets/images/sector9.png"
+							alt="Imagen del proyecto Sector 9"
 						/>
 					</div>
 					<div class="project-description">
 						<a
 							class="title"
 							target="_blank"
-							href="https://pandresvaldivia.github.io/Climacity/"
-							>Climacity</a
+							rel="noreferrer"
+							href="https://pandresvaldivia.github.io/Sector-9/"
+							>Sector 9</a
 						>
 						<p>
-							Consulta el clima y el rango en el que se encontrará la
-							temperatura de tu ciudad o cualquier otra alrededor del mundo.
+							Si estás buscando escribir tu nombre en la calle, entonces quieres
+							una tabla de Sector Nine.
 						</p>
 						<div class="button-container">
 							<a
 								target="_blank"
-								href="https://pandresvaldivia.github.io/Climacity/"
+								rel="noreferrer"
+								href="https://pandresvaldivia.github.io/Sector-9/"
 								class="button"
 								>Ver proyecto</a
 							>
 							<a
 								target="_blank"
-								href="https://github.com/pandresvaldivia/Climacity"
+								rel="noreferrer"
+								href="https://github.com/pandresvaldivia/Sector-9/"
 								class="button is-secondary"
 								>Ver código</a
 							>
@@ -180,21 +208,30 @@
 					</div>
 				</div>
 				<article class="testimony">
-					<img src="./images/user-leonidas.png" height="80" width="80" alt="" />
+					<img
+						src="./assets/images/user-leonidas.png"
+						height="80"
+						width="80"
+						alt="Avatar de Leonidas Esteban"
+					/>
 					<p>
 						"Andrés ha sido de gran ayuda para acelerar ciertos esfuerzos de
 						desarrollo. Lo que nos hubiera llevado semanas solo les llevó días".
 					</p>
-					<p>Leonidas Esteban / Cofundador y CEO de Climacity</p>
+					<p>Leonidas Esteban / Cofundador y CEO de Sector 9</p>
 				</article>
 				<div class="project">
 					<div class="project-image">
-						<img src="./images/nemium.png" alt="Imagen del proyecto Nemium" />
+						<img
+							src="./assets/images/nemium.png"
+							alt="Imagen del proyecto Nemium"
+						/>
 					</div>
 					<div class="project-description">
 						<a
 							class="title"
 							target="_blank"
+							rel="noreferrer"
 							href="https://pandresvaldivia.github.io/Nemium/"
 							>Nemium</a
 						>
@@ -205,12 +242,14 @@
 						<div class="button-container">
 							<a
 								target="_blank"
+								rel="noreferrer"
 								href="https://pandresvaldivia.github.io/Nemium/"
 								class="button"
 								>Ver proyecto</a
 							>
 							<a
 								target="_blank"
+								rel="noreferrer"
 								href="https://github.com/pandresvaldivia/Nemium/"
 								class="button is-secondary"
 								>Ver código</a
@@ -219,42 +258,49 @@
 					</div>
 				</div>
 				<article class="testimony">
-					<img src="./images/user-marvol.png" height="80" width="80" alt="" />
+					<img
+						src="./assets/images/user-marvol.png"
+						height="80"
+						width="80"
+						alt="Avatar de Jason Lopez"
+					/>
 					<p>
 						"Andrés ha superado mis expectativas desde el diseño hasta el
 						desarrollo".
 					</p>
-					<p>JASON LOPEZ / Cofundador Y CEO Prostore</p>
+					<p>JASON LOPEZ / Cofundador Y CEO Nemium</p>
 				</article>
 				<div class="project">
 					<div class="project-image">
 						<img
-							src="./images/clist-crm.png"
-							alt="Imagen del proyecto Clist CRM"
+							src="./assets/images/netnet.png"
+							alt="Imagen del proyecto Netnet"
 						/>
 					</div>
 					<div class="project-description">
 						<a
 							class="title"
 							target="_blank"
-							href="https://github.com/pandresvaldivia/Clist-CRM"
-							>Clist CRM</a
+							rel="noreferrer"
+							href="https://github.com/pandresvaldivia/Netnet/"
+							>Netnet</a
 						>
 						<p>
-							Crea, edita y elimina cuantos clientes desees estos se almacenaran
-							en el navegador gracias a la API IndexedDB que almacena datos en
-							formato JSON.
+							Netnet es una de las plataformas de entretenimiento con más
+							ranking a nivel mundial.
 						</p>
 						<div class="button-container">
 							<a
 								target="_blank"
-								href="https://pandresvaldivia.github.io/Clist-CRM/"
+								rel="noreferrer"
+								href="https://pandresvaldivia.github.io/Netnet/"
 								class="button"
 								>Ver proyecto</a
 							>
 							<a
 								target="_blank"
-								href="https://github.com/pandresvaldivia/Clist-CRM"
+								rel="noreferrer"
+								href="https://github.com/pandresvaldivia/Netnet/"
 								class="button is-secondary"
 								>Ver código</a
 							>
@@ -262,12 +308,17 @@
 					</div>
 				</div>
 				<article class="testimony">
-					<img src="./images/user-netnet.png" height="80" width="80" alt="" />
+					<img
+						src="./assets/images/user-netnet.png"
+						height="80"
+						width="80"
+						alt="Avatar de Marco Cortez"
+					/>
 					<p>
 						"Por primera vez en la historia de nuestra empresa, aparecimos en
 						todas las plataformas en las que trabajamos".
 					</p>
-					<p>MARCO CORTEZ / Clist CRM</p>
+					<p>MARCO CORTEZ / Netnet</p>
 				</article>
 			</section>
 			<form id="contact" class="form section" action="" method="POST">
@@ -312,7 +363,7 @@
 			<footer class="footer">
 				<div class="footer-logo">
 					<img
-						src="./icons/logo-footer.svg"
+						src="./assets/icons/logo-footer.svg"
 						height="40"
 						alt="Logo del portafolio de Andres"
 					/>
@@ -321,23 +372,32 @@
 					<a
 						class="button-icon"
 						target="_blank"
+						rel="noreferrer"
 						href="https://github.com/pandresvaldivia/"
-						><img src="icons/icon-github.svg" alt="icono de github"
+						><img src="assets/icons/icon-github.svg" alt="icono de github"
 					/></a>
 					<a class="button-icon" href="#contact"
-						><img src="icons/icon-important_mail.svg" alt="icono de correo"
+						><img
+							src="assets/icons/icon-important_mail.svg"
+							alt="icono de correo"
 					/></a>
 					<a
 						class="button-icon"
 						target="_blank"
+						rel="noreferrer"
 						href="https://www.instagram.com/pandresvaldivia/"
-						><img src="icons/icon-instagram.svg" alt="icono de instagram"
+						><img
+							src="assets/icons/icon-instagram.svg"
+							alt="icono de instagram"
 					/></a>
 					<a
 						class="button-icon"
 						target="_blank"
+						rel="noreferrer"
 						href="https://twitter.com/PandresDev"
-						><img src="icons/icon-twitter_squared.svg" alt="icono de twitter"
+						><img
+							src="assets/icons/icon-twitter_squared.svg"
+							alt="icono de twitter"
 					/></a>
 				</div>
 				<p>Copyright 2021 - Todos los derechos reservados.</p>

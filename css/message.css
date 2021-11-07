@@ -1,23 +1,38 @@
 .message {
-    text-align: center;
-    padding-block: 40px;
-    padding-inline: 16px;
+	text-align: center;
+	padding-block: 40px;
+	padding-inline: 16px;
 }
 
 .message p {
-    font: var(--headline5);
+	font: var(--headline5);
 }
 
 .message p:first-child {
-    font-weight: 400;
+	font-weight: 400;
+}
+
+.message-arrow {
+	animation: movement 1s alternate;
+	-webkit-animation: movement 0.8s infinite alternate;
+}
+
+@keyframes movement {
+	to {
+		transform: translateY(20px);
+		-webkit-transform: translateY(20px);
+		-moz-transform: translateY(20px);
+		-ms-transform: translateY(20px);
+		-o-transform: translateY(20px);
+	}
 }
 
 @media screen and (min-width: 768px) {
-    .message {
-        padding-block: 200px;
-        padding-inline: 153px;
-    }
-    .message p:first-child {
-        font: var(--message);
-    }
+	.message {
+		padding-block: 200px;
+		padding-inline: 153px;
+	}
+	.message p:first-child {
+		font: var(--message);
+	}
 }
